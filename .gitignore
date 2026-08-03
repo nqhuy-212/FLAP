@@ -1,0 +1,52 @@
+# =============================================================
+#  FLAP Dashboard — .gitignore
+#  QUAN TRỌNG: file này phải tồn tại TRƯỚC mọi lệnh `git add`.
+#  Dữ liệu nhà máy và tên thật nhân viên KHÔNG được lên GitHub.
+# =============================================================
+
+# --- Dữ liệu nguồn từ MES/WMS (BẢO MẬT) ---------------------
+EXCEL files/
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+~$*
+
+# --- Snapshot lịch sử sinh ra khi chạy ----------------------
+data/
+*.parquet
+
+# --- Nhật ký ------------------------------------------------
+logs/
+*.log
+
+# --- Bí mật / cấu hình môi trường ---------------------------
+.env
+.env.*
+!.env.example
+
+# --- Python -------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node / Next.js -----------------------------------------
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+npm-debug.log*
+
+# --- Hệ điều hành / IDE -------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
