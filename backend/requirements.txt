@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pandas
+python-calamine
+openpyxl
+pyarrow
+watchdog
+pydantic-settings
+pytest

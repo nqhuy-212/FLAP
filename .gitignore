@@ -35,6 +35,8 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+wheelhouse/
+*.7z
 
 # --- Node / Next.js -----------------------------------------
 node_modules/
